@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abogados Rojo Alvarez</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <!-- JavaScript de Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+    <div class="container-fluid" style="max-width: 2000px;">
+        <header class="fixed bg-dark-subtle py-2  opacity-75">
+            <div class="d-flex flex-column">
+                <!-- icono y opciones contenedor -->
+                <div class="d-flex align-items-center">
+                    <!-- contenedor imagen -->
+                    <div class="col-6 col-sm-6 d-flex p-1">
+                        <img src="../img/Icono.png" alt="Logo" style="max-height: 80px;">
+                    </div>
+                    <!-- menu opciones -->
+                    <div class="col-6 col-sm-6 d-flex align-items-center justify-content-around">
+                        <nav class="navbar navbar-expand-sm">
+                            <div class="container-fluid">
+                                <a class="navbar-brand" href="#"></a>
+                                <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false"
+                                    aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+                                <div class="collapse navbar-collapse" id="navbarText">
+                                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                        <li class="nav-item mx-2">
+                                            <a class="nav-link active" aria-current="page" href="home.html">Inicio</a>
+                                        </li>
+                                        <li class="nav-item mx-2">
+                                            <a class="nav-link" href="contacto.html">Contacto</a>
+                                        </li>
+                                        <li class="nav-item mx-2">
+                                            <a class="nav-link" href="conocenos.html">Conocenos</a>
+                                        </li>
+                                        <li class="nav-item mx-2">
+                                            <a class="nav-link" href="servicios.html">Servicios</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- formulario -->
+        <h2 class="text-center">¿Cómo podemos ayudarte?</h2>
+        <p class="text-center">Envía tu pregunta y te responderemos lo antes posible.</p>
+        <section class="fondo">
+            <div class="col-md-6 text-center justify-content-center container-fluid p-5 mt-3">
+                <form action="" method="">
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Asunto</option>
+                            <option value="1">Otros sectores</option>
+                            <option value="2">Industrias</option>
+                            <option value="3">Empleo</option>
+                            <option value="4">Eventos</option>
+                            <option value="5">Prensa</option>
+                            <option value="6">Responsabilidad corporativa</option>
+                        </select>
+                        <label for="floatingSelect">Seleccionar asunto</label>
+                    </div>
+                    <!-- nombre -->
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Introducir asunto">
+                        <label for="floatingInput">Nombre</label>
+                    </div>
+                    <!-- apellidos -->
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput" placeholder="Introducir asunto">
+                        <label for="floatingInput">Apellidos</label>
+                    </div>
+                    <!-- correo  -->
+                    <div class="form-floating mb-3">
+                        <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                        <label for="floatingInput">Correo Electrónico</label>
+                    </div>
+
+                    <!-- compañia -->
+                    <div class="form-floating mb-3">
+                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                            <option selected>Introduzca su compañia</option>
+                            <option value="0">Otros</option>
+                            <option value="1">Garrigues</option>
+                            <option value="2">IBM</option>
+                            <option value="3">Indra</option>
+                            <option value="4">Corte Ingles</option>
+                            <option value="5">Vilches</option>
+                        </select>
+                        <label for="floatingSelect">Seleccionar empresa</label>
+                    </div>
+                    <!-- telefono -->
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Teléfono</label>
+                    </div>
+                    <!-- direccion -->
+                    <div class="form-floating mb-3">
+                        <input type="text" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Direccion</label>
+                    </div>
+
+                    <!-- direccion -->
+                    <div class="form-floating mb-3">
+                        <input type="number" class="form-control" id="floatingInput">
+                        <label for="floatingInput">Codigo postal</label>
+                    </div>
+                    <!-- text area -->
+                    <div class="form-floating mb-3">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                            style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comentarios</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn mb-3">Enviar</button>
+                </form>
+            </div>
+        </section>
+        <!-- footer -->
+        <footer class="mt-5 bg-dark-subtle opacity-75 mt-5 p-5 w-100">
+            <div class="row text-center">
+                <div class="col-md-4 mb-3">
+                    <a href="">
+                        <p>Contáctanos</p>
+                    </a>
+                    <a href="">
+                        <p>Quienes somos</p>
+                    </a>
+                    <a href="">
+                        <p>Qué hacemos</p>
+                    </a>
+                    <a href="">
+                        <p>Nuestra perspectiva</p>
+                    </a>
+                    <a href="">
+                        <p>
+                            <p>Enviar informacion</p>
+                        </p>
+                    </a>
+                </div>
+
+                <hr class="d-md-none">
+
+                <div class="col-md-4 mb-3">
+                    <a href="">
+                        <p>Trabaja con nosotros</p>
+                    </a>
+                    <a href="">
+                        <p>Quienes somos</p>
+                    </a>
+                    <a href="">
+                        <p>Qué hacemos</p>
+                    </a>
+                    <a href="">
+                        <p>Nuestra perspectiva</p>
+                    </a>
+                    <a href="">
+                        <p>
+                            <p>Enviar informacion</p>
+                        </p>
+                    </a>
+                </div>
+
+                <hr class="d-md-none">
+
+                <div class="col-md-4 mb-3">
+                    <a href="#">
+                        <p>Ver ubicaciones</p>
+                    </a>
+                    <a href="#">
+                        <p>Sala de prensa</p>
+                    </a>
+                    <a href="#">
+                        <p>Eventos</p>
+                    </a>
+                    <a href="#">
+                        <p>Notas de prensa</p>
+                    </a>
+                    <a href="#">
+                        <p>Noticias</p>
+                    </a>
+                </div>
+
+                <hr class="d-md-none">
+
+                <div class="row col-md-7 text-center">
+                    <h5>Ubicación</h5>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24304.28383461132!2d-3.6966970500187495!3d40.40806480032282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228a0462ae9a5%3A0xb810b11635a3dc76!2sRetiro%2C%20Madrid!5e0!3m2!1ses!2ses!4v1723465143425!5m2!1ses!2ses"
+                        width="200" height="400" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class="col-md-5 text-center mt-5">
+                    <h5>Síguenos</h5>
+                    <a href="#"><img src="../img/instagram.png" alt=""></a>
+                    <a href="#"><img src="../img/facebook.png" alt=""></a>
+                    <a href="#"><img src="../img/linkedin.png" alt=""></a>
+                    <a href="#"><img src="../img/tik-tok.png" alt=""></a>
+                    <p>Teléfono de contacto: 999 999 999</p>
+                    <p>&copy; Iván Álvarez García</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+
+
+
+</body>
+
+</html>

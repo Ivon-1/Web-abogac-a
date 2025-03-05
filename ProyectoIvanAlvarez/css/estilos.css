@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.rojo {
+    background-color: red;
+}
+
+.morado {
+    background-color: purple;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.naranja {
+    background-color: orange;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.bisque{
+    background-color: bisque;
+}
+
+.naranjaClaro{
+    background-color: lightgoldenrodyellow;
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul-claro{
+    background-color: lightskyblue;
+}
+
+
+.verde_azulado_contraste{
+    background-color: #18a3be; /* Verde azulado profundo */
+}
+
+.fuenteMorada{
+    color: purple;
+}
+
+.fondoMorada{
+    color: rgb(83, 1, 83);
+}
+
+
+
+/* ------------------------------------------------------------------------*/
+
+.gris{
+    background: grey;
+}
+
+/* cambiar tamaño imagen carousel para que esten iguales */
+.carousel-inner img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.fondo{
+    background-image: url(../img/principalHeader.jpg);
+    object-fit: cover;
+}
+
+.border-radius{
+    border-radius: 15%;
+}
+
+.fondo-header{
+    background-image: url("../img/colorful-wallpaper-background-multicolored-generative-ai.jpg");
+    object-fit: cover;
+}
+
+.fondo-conocenos{
+    background-image: url("../img/derecho.jpg");
+    box-shadow: 0px 0px 7px;
+    object-fit: cover;
+}
+/* personalizamos todas las cards de las img al mismo tamaño*/
+.card-img-top{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.fondo-conocenos2{
+    background-image: url("../img/edificio.jpg");
+}
+
+.subir{
+    margin-top: -400px;
+    font-size: 18px;
+}
+
+.fuenteBlanca{
+    color: white;
+}
+
+
+/* ----------------------------------------- */
+.cardServicios{
+    border: 4px solid rgb(0, 204, 255);
+    background-color: #002e69;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+
+.cardServicios:hover{
+    border: 4px solid rgb(0, 204, 255);
+    background-color: #9700a5;
+    transition: all 300ms;
+    transform: translateY(-10px);
+}
+
+.seccionServicios{
+    background-image: url("../img/abogadoPrincipal.jpg");
+    object-fit: cover;
+}
+
+/* seccion dos servicios */
+.fondoCardsServicios{
+    background-color: #002e69;
+}
+
+.cardServiciosSegunda{
+    transition: all 300ms;
+}
+
+.cardServiciosSegunda:hover{
+    background-color: #0270ee;
+    transform: translateY(-20px);
+}
+
+
